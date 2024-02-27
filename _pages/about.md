@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am currently a postgraduate student at [Soochow University](http://www.suda.edu.cn) in the [School of Computer Science & Technology](http://scst.suda.edu.cn/) . My supervisor is [Prof. Jin Wang](http://web.suda.edu.cn/wjin1985/index.html). Piror to that, I received double B.S. degrees in computer science from Northern Arizona University & computer science and technology from Yangzhou University in 2020, respectively. My research interests include **blockchain security**, **coded computing** and **distributed systems**.<br>
+Hi! I am currently a postgraduate student at [Soochow University](http://www.suda.edu.cn) in the School of Computer Science & Technology . My supervisor is [Prof. Jin Wang](http://web.suda.edu.cn/wjin1985/index.html). Piror to that, I received double B.S. degrees in computer science from Northern Arizona University & computer science and technology from Yangzhou University in 2020, respectively. My research interests include **blockchain security**, **coded computing** and **distributed systems**.<br>
 
 I would love to work with all people together on some interesting projects! **Feel free to drop me an email** if you have any ideas about blockchain to discuss!
 
@@ -22,7 +22,7 @@ I would love to work with all people together on some interesting projects! **Fe
     <img src='images/pub1-RecAGT.png' alt="overview">
   </div>
   <div class='public-box-text' markdown="1">
-  1. **RecAGT: Shard Testable Codes with Adaptive Group Testing for Malicious Nodes Identification in Sharding Permissioned Blockchain**
+  1. **[RecAGT: Shard Testable Codes with Adaptive Group Testing for Malicious Nodes Identification in Sharding Permissioned Blockchain](https://link.springer.com/chapter/10.1007/978-981-97-0859-8_24)**
   <br>  **<u>Dongyang Yu</u>**, Jin Wang, Lingzhi Li, Wei Jiang and Can Liu,
   In *Proceedings of the 23rd International Conference on Algorithms and Architectures for Parallel Processing (`Springer ICA3PP`, CCF-C)*, Tianjin, China, 2023.
   <!-- **Contribution**: We are the first to investigate sample-level graph and formulate zero-shot learning to a graph-to-semantics matching task. -->
@@ -31,8 +31,8 @@ I would love to work with all people together on some interesting projects! **Fe
 
 
 ### Lists
-1. **Dongyang Yu**, Jin Wang, Lingzhi Li, Wei Jiang and Can Liu, "RecAGT: Shard Testable Codes with Adaptive Group Testing for Malicious Nodes Identification in Sharding Permissioned Blockchain", *23rd International Conference on Algorithms and Architectures for Parallel Processing(`Springer ICA3PP`, CCF-C)*, Tianjin, China, 2023. \[[arXiv](https://arxiv.org/abs/2311.02582)\]
-2. Wei Jiang, Jin Wang, Lingzhi Li, **Dongyang Yu** and Can Liu, "Test-and-Decode: A Partial Recovery Scheme for Verifiable Coded Computing	", *23rd International Conference on Algorithms and Architectures for Parallel Processing(`Springer ICA3PP`, CCF-C)*, Tianjin, China, 2023.
+1. **Dongyang Yu**, Jin Wang, Lingzhi Li, Wei Jiang and Can Liu, "RecAGT: Shard Testable Codes with Adaptive Group Testing for Malicious Nodes Identification in Sharding Permissioned Blockchain", *23rd International Conference on Algorithms and Architectures for Parallel Processing(`Springer ICA3PP`, CCF-C)*, Tianjin, China, 2023. \[[Link](https://link.springer.com/chapter/10.1007/978-981-97-0859-8_24) \| [arXiv](https://arxiv.org/abs/2311.02582)\]
+2. Wei Jiang, Jin Wang, Lingzhi Li, **Dongyang Yu** and Can Liu, "Test-and-Decode: A Partial Recovery Scheme for Verifiable Coded Computing	", *23rd International Conference on Algorithms and Architectures for Parallel Processing(`Springer ICA3PP`, CCF-C)*, Tianjin, China, 2023. \[[Link](https://link.springer.com/chapter/10.1007/978-981-97-0859-8_23)\]
 
 ## Patents
 1. Wang, J., **Yu, D**. 2023. A method and system of permissioned blockchain for agricultural product traceability. CN Patent Application, filed June 2023. Pending. (*First student author)
