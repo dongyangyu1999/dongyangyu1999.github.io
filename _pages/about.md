@@ -16,7 +16,7 @@ I would love to work with all people together on some interesting projects! **Fe
 - [Jul. 2023] 🎉🎉🎉 Our public "**RecAGT: Shard Testable Codes with Adaptive Group Testing for Malicious Nodes Identification in Sharding Permissioned Blockchain**" was accepted by the *23rd International Conference on Algorithms and Architectures for Parallel Processing (`Springer ICA3PP`, CCF-C)*.
 - [Jul. 2023] 🎉🎉🎉 Our public "**Test-and-Decode: A Partial Recovery Scheme for Verifiable Coded Computing**" was accepted by the *23rd International Conference on Algorithms and Architectures for Parallel Processing (`Springer ICA3PP`, CCF-C)*.
 
-## Publications
+## Selected Publications
 <div class='public-box'>
   <div class='public-box-image'>
     <div class="badge">ICA3PP</div>
