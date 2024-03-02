@@ -1,0 +1,46 @@
+# 模板
+# - id: 1 # 序号 "-" 表示数组
+#   Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+#     - [XXX, 1]
+#   Title: 'XXX'
+#   Rank: 'ICA3PP CCF-C'
+#   Year: 2023
+#   Volumn: 14490
+#   No:
+#   Page: 398–418
+#   Link: 'https://sss'
+#   Location: 'Tianjin, China'
+- id: 2 # 序号 "-" 表示数组
+  Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+    - [Wei Jiang, 0]
+    - [Jin Wang, 4]
+    - [Lingzhi Li, 0]
+    - [Dongyang Yu, 1]
+    - [Can Liu, 0]
+  Title: 'Test-and-Decode: A Partial Recovery Scheme for Verifiable Coded Computing'
+  PubSource: '23rd International Conference on Algorithms and Architectures for Parallel Processing'
+  Rank: 'ICA3PP CCF-C'
+  Year: 2023
+  Volumn: 14490
+  No:
+  Page: 378–397
+  Link: 'https://link.springer.com/chapter/10.1007/978-981-97-0859-8_23'
+  Location: 'Tianjin, China'
+- id: 1 # 序号 "-" 表示数组
+  Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+    - [Dongyang Yu, 1]
+    - [Jin Wang, 4]
+    - [Lingzhi Li, 4]
+    - [Wei Jiang, 0]
+    - [Can Liu, 0]
+  Title: 'RecAGT: Shard Testable Codes with Adaptive Group Testing for Malicious Nodes Identification in Sharding Permissioned Blockchain'
+  PubSource: '23rd International Conference on Algorithms and Architectures for Parallel Processing'
+  Rank: 'ICA3PP CCF-C'
+  Year: 2023
+  Volumn: 14490
+  No:
+  Page: 398–418
+  Link: 'https://link.springer.com/chapter/10.1007/978-981-97-0859-8_24'
+  Arxiv: 'https://arxiv.org/abs/2311.02582'
+  Location: 'Tianjin, China'
+  

@@ -1,0 +1,12 @@
+# 模板
+# - id: 1 # 序号 "-" 表示数组
+#   Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+#     - [XXX, 1]
+#   Title: 'XXX'
+#   Rank: 'ICA3PP CCF-C'
+#   Year: 2023
+#   Volumn: 14490
+#   No:
+#   Page: 398–418
+#   Link: 'https://sss'
+#   Location: 'Tianjin, China'

@@ -1,17 +1,17 @@
 # main links links
-main:
+main: # 详见_includes/masthead.md
   - title: "News"
     tag: "news"
 
   - title: "Publications"
-    # url: /publications/
-    tag: "publications"
+    url: /publications
+    # tag: "publications"
 
-  - title: "Patents"
-    tag: "patents"
+  # - title: "Patents"
+  #   tag: "patents"
     
-  - title: "Software Copyrights"
-    tag: "software-copyrights"
+  # - title: "Software Copyrights"
+  #   tag: "software-copyrights"
 
   - title: "Selected Awards"
     tag: "selected-awards"

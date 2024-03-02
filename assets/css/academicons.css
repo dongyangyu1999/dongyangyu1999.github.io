@@ -372,8 +372,28 @@
 
   .public-box .public-box-text {
       justify-content: left;
-      padding-left: 2em;
+      padding-left: 0.5em;
       max-width: 50%;
       order: 2
   }
+}
+
+.badge {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  margin-top: -1.5em;
+  /* margin-left: -0.5em; */
+  color: white;
+  background-color: #00369f;
+  font-size: .8em;
+}
+
+.greedy-nav .visible-links li:first-child {
+  font-weight: normal;
+}
+
+/* pub导航栏变色 */
+.greedy-nav .visible-links > li.active {
+  font-weight: bold;
 }

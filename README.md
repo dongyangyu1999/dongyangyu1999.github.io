@@ -76,4 +76,6 @@ git push
 
 navigation list in `_data/navigation.yml`
 
-Update the edited time in `\_includes/footer.html`
+Update the edit time in `_includes/footer.html`
+
+Update the publications in `_data/pub.yml`

@@ -19,6 +19,7 @@ I would love to work with all people together on some interesting projects! **Fe
 ## Publications
 <div class='public-box'>
   <div class='public-box-image'>
+    <div class="badge">ICA3PP</div>
     <img src='images/pub1-RecAGT.png' alt="overview">
   </div>
   <div class='public-box-text' markdown="1">
@@ -29,19 +30,6 @@ I would love to work with all people together on some interesting projects! **Fe
   </div>
 </div>
 
-
-### Lists
-1. **Dongyang Yu**, Jin Wang, Lingzhi Li, Wei Jiang and Can Liu, "RecAGT: Shard Testable Codes with Adaptive Group Testing for Malicious Nodes Identification in Sharding Permissioned Blockchain", *23rd International Conference on Algorithms and Architectures for Parallel Processing(`Springer ICA3PP`, CCF-C)*, Tianjin, China, 2023. \[[Link](https://link.springer.com/chapter/10.1007/978-981-97-0859-8_24) \| [arXiv](https://arxiv.org/abs/2311.02582)\]
-2. Wei Jiang, Jin Wang, Lingzhi Li, **Dongyang Yu** and Can Liu, "Test-and-Decode: A Partial Recovery Scheme for Verifiable Coded Computing	", *23rd International Conference on Algorithms and Architectures for Parallel Processing(`Springer ICA3PP`, CCF-C)*, Tianjin, China, 2023. \[[Link](https://link.springer.com/chapter/10.1007/978-981-97-0859-8_23)\]
-
-## Patents
-1. Wang, J., **Yu, D**. 2023. A method and system of permissioned blockchain for agricultural product traceability. CN Patent Application, filed June 2023. Pending. (*First student author)
-2. Wang, J., **Yu, D**. 2023. A method to identify malicious nodes in sharding permissioned blockchain. CN Patent Application, filed June 2023. Pending. (*First student author)
-3. Wang, J., Jiang, W., **Yu, D**. 2023. A storage method based on linear encoding for blockchain. CN Patent Application, filed July 2023. Pending. (*Second student author)
-
-## Software Copyrights
-1. **Yu, D.**, Wang, J., 2023. Software Copyright of Xunji Blockchain Platform for Traceability of Agricultural Product. Software Application 2023SR0812724, filed July 06, 2023.
-2. **Yu, D.**, Wang, J., 2023. Software Copyright of Blockchain Supervision Platform for Agricultural Production. Software Application 2023SR0812637, filed June 15, 2023.
 
 ## Selected Awards
 - The Huawei Scholarship <u>(15 places in total)</u>, Soochow University, *Nov. 2023*
@@ -62,5 +50,6 @@ I would love to work with all people together on some interesting projects! **Fe
 <!-- Example: editing a markdown file for a talk -->
 <!-- ![Editing a markdown file for a talk](/images/editing-talk.png) -->
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5p7vdhesdz8&amp;s=180&amp;m=0&amp;v=true&amp;r=false&amp;b=ffffff&amp;n=true&amp;c=007eff" async="async"></script>
-
+<!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5p7vdhesdz8&amp;s=180&amp;m=0&amp;v=true&amp;r=false&amp;b=ffffff&amp;n=true&amp;c=007eff" async="async"></script> -->
+## Visitors
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5p7vdhesdz8&amp;m=8&amp;c=808080&amp;cr1=ff0000&amp;f=arial&amp;l=0" async="async"></script>
