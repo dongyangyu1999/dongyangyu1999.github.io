@@ -1,0 +1,25 @@
+# 模板
+# - id: X # 序号 "-" 表示数组
+#   Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+#     - [Dongyang Yu, 1]
+#     - [Jin Wang, 0]
+#   Title: '农产品生产流程区块链监管平台 (Software Copyright of Blockchain Supervision Platform for Agricultural Production)'
+#   CertificateNo: '2023SR0812637' # 证书编号
+#   Status: 'Filed on' # 状态
+#   Date: 'Jun. 2023' # 发行日期
+- id: 2 # 序号 "-" 表示数组
+  Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+    - [Dongyang Yu, 1]
+    - [Jin Wang, 0]
+  Title: '寻迹农产品溯源区块链平台 (Software copyright of xunji blockchain platform for traceability for agricultural production)'
+  CertificateNo: '2023SR0812724'
+  Status: 'Filed on'
+  Date: 'Jul. 2023'
+- id: 1 # 序号 "-" 表示数组
+  Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+    - [Dongyang Yu, 1]
+    - [Jin Wang, 0]
+  Title: '农产品生产流程区块链监管平台 (Software copyright of blockchain supervision platform for agricultural production)'
+  CertificateNo: '2023SR0812637' # 证书编号
+  Status: 'Filed on' # 状态
+  Date: 'Jun. 2023' # 发行日期

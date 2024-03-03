@@ -43,12 +43,12 @@ author_profile: true
 
 
 <div id="conference">
+<p style="padding-left: 1em">[ #: Corresponding Author, †: Supervising Student ]</p>
 {% assign conference_list = site.data.pub_conference %}
 <ol reversed="reversed">
   {% for pub in conference_list %}
     <li>
-      <p>
-        <!-- 输出作者名单 -->
+<!-- 输出作者名单 -->
         {% for author in pub.Authors %}
           <!-- {% assign name_list = '' %} -->
           {% assign name = author[0] %}
@@ -69,7 +69,7 @@ author_profile: true
             {% assign name = name | append: '#' %}
           <!-- 其余如0为普通作者 -->
           {% endif %}
-          <!-- 加逗号和and -->
+<!-- 加逗号和and -->
           {% if forloop.index == boundary %}
             {% assign name_list = name | append: ', and' %}
           {% else %}
@@ -79,43 +79,43 @@ author_profile: true
           <!-- 输出名字 -->
           {{name_list}}
         {% endfor %}
-        <!-- 输出标题 -->
+<!-- 输出标题 -->
         {% assign title = pub.Title | prepend: '"' %}
         {% assign title = title | append: '",' %}
         {{title}}
-        <!-- 输出文章来源 -->
+<!-- 输出文章来源 -->
         {% assign pubsource = pub.PubSource | prepend: '<i>' %}
         {% assign pubsource = pubsource | append: '</i>,' %}
         {{pubsource}}
-        <!-- 文章评级 -->
+<!-- 文章评级 -->
         {% assign rank = pub.Rank | prepend: '(<code>' %}
         {% assign rank = rank | append: '</code>),' %}
         {{rank}}
-        <!-- （若有）期刊卷号 -->
+<!-- （若有）期刊卷号 -->
         {% if pub.Volumn %}
         {% assign vol = pub.Volumn | prepend: 'vol. ' %}
         {% assign vol = vol | append: ',' %}
         {{vol}}
         {% endif%}
-        <!-- （若有）期刊期号 -->
+<!-- （若有）期刊期号 -->
         {% if pub.No %}
         {% assign no = pub.No | prepend: 'no. ' %}
         {% assign no = no | append: ',' %}
         {{no}}
         {% endif%}
-        <!-- （若有）页码 -->
+<!-- （若有）页码 -->
         {% if pub.Page %}
         {% assign page = pub.Page | prepend: 'pp. ' %}
         {% assign page = page | append: ',' %}
         {{page}}
         {% endif%}
-        <!-- （若有）输出地点 -->
+<!-- （若有）输出地点 -->
         {% assign location = pub.Location | append: ',' %}
         {{location}}
-        <!-- 输出时间 -->
+<!-- 输出时间 -->
         {% assign year = pub.Year | append: '.' %}
         {{year}}
-        <!-- （若有）见刊链接 -->
+<!-- （若有）见刊链接 -->
         {% if pub.Link %}
           [ <a href="{{pub.Link}}">Link</a> 
           <!-- （若有arXiv） -->
@@ -123,23 +123,20 @@ author_profile: true
           | <a href="{{pub.Arxiv}}">arXiv</a> 
           {% endif %}
           ]
-        {% elsif pub.Arxiv %}
+        {% elsif pub.Arxiv %} <!-- arxiv链接 -->
           [ <a href="{{pub.Arxiv}}">arXiv</a> ]
         {% endif%}
-      </p>
-      <p>{{pub.profession}}</p>
     </li>
   {% endfor %}
 </ol>
 </div>
 
 <div id="journal" style="display: none">
-{% assign conference_list = site.data.pub_journal %}
+{% assign journal_list = site.data.pub_journal %}
 <ol reversed="reversed">
-  {% for pub in conference_list %}
+  {% for pub in journal_list %}
     <li>
-      <p>
-        <!-- 输出作者名单 -->
+<!-- 输出作者名单 -->
         {% for author in pub.Authors %}
           <!-- {% assign name_list = '' %} -->
           {% assign name = author[0] %}
@@ -160,7 +157,7 @@ author_profile: true
             {% assign name = name | append: '#' %}
           <!-- 其余如0为普通作者 -->
           {% endif %}
-          <!-- 加逗号和and -->
+<!-- 加逗号和and -->
           {% if forloop.index == boundary %}
             {% assign name_list = name | append: ', and' %}
           {% else %}
@@ -170,43 +167,43 @@ author_profile: true
           <!-- 输出名字 -->
           {{name_list}}
         {% endfor %}
-        <!-- 输出标题 -->
+<!-- 输出标题 -->
         {% assign title = pub.Title | prepend: '"' %}
         {% assign title = title | append: '",' %}
         {{title}}
-        <!-- 输出文章来源 -->
+<!-- 输出文章来源 -->
         {% assign pubsource = pub.PubSource | prepend: '<i>' %}
         {% assign pubsource = pubsource | append: '</i>,' %}
         {{pubsource}}
-        <!-- 文章评级 -->
+<!-- 文章评级 -->
         {% assign rank = pub.Rank | prepend: '(<code>' %}
         {% assign rank = rank | append: '</code>),' %}
         {{rank}}
-        <!-- （若有）期刊卷号 -->
+<!-- （若有）期刊卷号 -->
         {% if pub.Volumn %}
         {% assign vol = pub.Volumn | prepend: 'vol. ' %}
         {% assign vol = vol | append: ',' %}
         {{vol}}
         {% endif%}
-        <!-- （若有）期刊期号 -->
+<!-- （若有）期刊期号 -->
         {% if pub.No %}
         {% assign no = pub.No | prepend: 'no. ' %}
         {% assign no = no | append: ',' %}
         {{no}}
         {% endif%}
-        <!-- （若有）页码 -->
+<!-- （若有）页码 -->
         {% if pub.Page %}
         {% assign page = pub.Page | prepend: 'pp. ' %}
         {% assign page = page | append: ',' %}
         {{page}}
         {% endif%}
-        <!-- （若有）输出地点 -->
+<!-- （若有）输出地点 -->
         {% assign location = pub.Location | append: ',' %}
         {{location}}
-        <!-- 输出时间 -->
+<!-- 输出时间 -->
         {% assign year = pub.Year | append: '.' %}
         {{year}}
-        <!-- （若有）见刊链接 -->
+<!-- （若有）见刊链接 -->
         {% if pub.Link %}
           [ <a href="{{pub.Link}}">Link</a> 
           <!-- （若有arXiv） -->
@@ -214,23 +211,20 @@ author_profile: true
           | <a href="{{pub.Arxiv}}">arXiv</a> 
           {% endif %}
           ]
-        {% elsif pub.Arxiv %}
+        {% elsif pub.Arxiv %} <!-- arxiv链接 -->
           [ <a href="{{pub.Arxiv}}">arXiv</a> ]
         {% endif%}
-      </p>
-      <p>{{pub.profession}}</p>
     </li>
   {% endfor %}
 </ol>
 </div>
 
 <div id="patent" style="display: none">
-{% assign conference_list = site.data.pub_patent %}
+{% assign patent_list = site.data.pub_patent %}
 <ol reversed="reversed">
-  {% for pub in conference_list %}
+  {% for pub in patent_list %}
     <li>
-      <p>
-        <!-- 输出作者名单 -->
+<!-- 输出作者名单 -->
         {% for author in pub.Authors %}
           <!-- {% assign name_list = '' %} -->
           {% assign name = author[0] %}
@@ -251,7 +245,7 @@ author_profile: true
             {% assign name = name | append: '#' %}
           <!-- 其余如0为普通作者 -->
           {% endif %}
-          <!-- 加逗号和and -->
+<!-- 加逗号和and -->
           {% if forloop.index == boundary %}
             {% assign name_list = name | append: ', and' %}
           {% else %}
@@ -261,70 +255,51 @@ author_profile: true
           <!-- 输出名字 -->
           {{name_list}}
         {% endfor %}
-        <!-- 输出标题 -->
+<!-- 输出标题 -->
         {% assign title = pub.Title | prepend: '"' %}
         {% assign title = title | append: '",' %}
         {{title}}
-        <!-- 输出文章来源 -->
-        {% assign pubsource = pub.PubSource | prepend: '<i>' %}
-        {% assign pubsource = pubsource | append: '</i>,' %}
-        {{pubsource}}
-        <!-- 文章评级 -->
-        {% assign rank = pub.Rank | prepend: '(<code>' %}
-        {% assign rank = rank | append: '</code>),' %}
-        {{rank}}
-        <!-- （若有）期刊卷号 -->
-        {% if pub.Volumn %}
-        {% assign vol = pub.Volumn | prepend: 'vol. ' %}
-        {% assign vol = vol | append: ',' %}
-        {{vol}}
+<!-- （若有）输出所属国别 -->
+        {% if pub.Country %}
+        {% assign country = pub.Country | prepend: '' %}
+        {% assign country = country | append: ' Patent,' %}
+        {{country}}
         {% endif%}
-        <!-- （若有）期刊期号 -->
-        {% if pub.No %}
-        {% assign no = pub.No | prepend: 'no. ' %}
-        {% assign no = no | append: ',' %}
+<!-- （若有）输出证书编号 -->
+        {% if pub.CertificateNo %}
+        {% assign no = pub.CertificateNo | prepend: '<i>No. ' %}
+        {% assign no = no | append: '</i>,' %}
         {{no}}
-        {% endif%}
-        <!-- （若有）页码 -->
-        {% if pub.Page %}
-        {% assign page = pub.Page | prepend: 'pp. ' %}
-        {% assign page = page | append: ',' %}
-        {{page}}
-        {% endif%}
-        <!-- （若有）输出地点 -->
-        {% assign location = pub.Location | append: ',' %}
-        {{location}}
-        <!-- 输出时间 -->
-        {% assign year = pub.Year | append: '.' %}
-        {{year}}
-        <!-- （若有）见刊链接 -->
-        {% if pub.Link %}
-          [ <a href="{{pub.Link}}">Link</a> 
-          <!-- （若有arXiv） -->
-          {% if pub.Arxiv %}
-          | <a href="{{pub.Arxiv}}">arXiv</a> 
-          {% endif %}
-          ]
-        {% elsif pub.Arxiv %}
-          [ <a href="{{pub.Arxiv}}">arXiv</a> ]
-        {% endif%}
-      </p>
-      <p>{{pub.profession}}</p>
+        {% endif %}
+<!-- （若有）处理状态 -->
+        {% if pub.Status %}
+        {{pub.Status}}
+        {% endif %}
+<!-- （若有）日期 -->
+        {% if pub.Date %}
+        {% assign date = pub.Date | append: '.' %}
+        {{date}}
+        {% endif %}
+<!-- （若有）备注信息 -->
+        {% if pub.Remarks %}
+        {% assign remarks = pub.Remarks | prepend: '<u>(' %}
+        {% assign remarks = remarks | append: ')</u>' %}
+        {{remarks}}
+        {% endif %}
     </li>
   {% endfor %}
 </ol>
-1. Wang, J., **Yu, D**. 2023. A method and system of permissioned blockchain for agricultural product traceability. CN Patent Application, filed June 2023. Pending. (*First student author)
-2. Wang, J., **Yu, D**. 2023. A method to identify malicious nodes in sharding permissioned blockchain. CN Patent Application, filed June 2023. Pending. (*First student author)
-3. Wang, J., Jiang, W., **Yu, D**. 2023. A storage method based on linear encoding for blockchain. CN Patent Application, filed July 2023. Pending. (*Second student author)
+<!-- 1. Wang, J., **Yu, D**. 2023. A method and system of permissioned blockchain for agricultural product traceability. CN Patent Application, filed June 2023. Pending. (*First student author)
+1. Wang, J., **Yu, D**. 2023. A method to identify malicious nodes in sharding permissioned blockchain. CN Patent Application, filed June 2023. Pending. (*First student author)
+2. Wang, J., Jiang, W., **Yu, D**. 2023. A storage method based on linear encoding for blockchain. CN Patent Application, filed July 2023. Pending. (*Second student author) -->
 </div>
 
 <div id="copyright" style="display: none">
-{% assign conference_list = site.data.pub_copyright %}
+{% assign copyright_list = site.data.pub_copyright %}
 <ol reversed="reversed">
-  {% for pub in conference_list %}
+  {% for pub in copyright_list %}
     <li>
-      <p>
-        <!-- 输出作者名单 -->
+<!-- 输出作者名单 -->
         {% for author in pub.Authors %}
           <!-- {% assign name_list = '' %} -->
           {% assign name = author[0] %}
@@ -345,7 +320,7 @@ author_profile: true
             {% assign name = name | append: '#' %}
           <!-- 其余如0为普通作者 -->
           {% endif %}
-          <!-- 加逗号和and -->
+<!-- 加逗号和and -->
           {% if forloop.index == boundary %}
             {% assign name_list = name | append: ', and' %}
           {% else %}
@@ -355,58 +330,24 @@ author_profile: true
           <!-- 输出名字 -->
           {{name_list}}
         {% endfor %}
-        <!-- 输出标题 -->
+<!-- 输出标题 -->
         {% assign title = pub.Title | prepend: '"' %}
         {% assign title = title | append: '",' %}
         {{title}}
-        <!-- 输出文章来源 -->
-        {% assign pubsource = pub.PubSource | prepend: '<i>' %}
-        {% assign pubsource = pubsource | append: '</i>,' %}
-        {{pubsource}}
-        <!-- 文章评级 -->
-        {% assign rank = pub.Rank | prepend: '(<code>' %}
-        {% assign rank = rank | append: '</code>),' %}
-        {{rank}}
-        <!-- （若有）期刊卷号 -->
-        {% if pub.Volumn %}
-        {% assign vol = pub.Volumn | prepend: 'vol. ' %}
-        {% assign vol = vol | append: ',' %}
-        {{vol}}
-        {% endif%}
-        <!-- （若有）期刊期号 -->
-        {% if pub.No %}
-        {% assign no = pub.No | prepend: 'no. ' %}
-        {% assign no = no | append: ',' %}
+<!-- 输出证书编号 -->
+        {% assign no = pub.CertificateNo | prepend: '<i>No. ' %}
+        {% assign no = no | append: '</i>,' %}
         {{no}}
+<!-- （若有）处理状态 -->
+        {% if pub.Status %}
+        {{pub.Status}}
         {% endif%}
-        <!-- （若有）页码 -->
-        {% if pub.Page %}
-        {% assign page = pub.Page | prepend: 'pp. ' %}
-        {% assign page = page | append: ',' %}
-        {{page}}
+<!-- 日期 -->
+        {% if pub.Date %}
+        {% assign date = pub.Date | append: '.' %}
+        {{date}}
         {% endif%}
-        <!-- （若有）输出地点 -->
-        {% assign location = pub.Location | append: ',' %}
-        {{location}}
-        <!-- 输出时间 -->
-        {% assign year = pub.Year | append: '.' %}
-        {{year}}
-        <!-- （若有）见刊链接 -->
-        {% if pub.Link %}
-          [ <a href="{{pub.Link}}">Link</a> 
-          <!-- （若有arXiv） -->
-          {% if pub.Arxiv %}
-          | <a href="{{pub.Arxiv}}">arXiv</a> 
-          {% endif %}
-          ]
-        {% elsif pub.Arxiv %}
-          [ <a href="{{pub.Arxiv}}">arXiv</a> ]
-        {% endif%}
-      </p>
-      <p>{{pub.profession}}</p>
     </li>
   {% endfor %}
 </ol>
-1. **Yu, D.**, Wang, J., 2023. Software Copyright of Xunji Blockchain Platform for Traceability of Agricultural Product. Software Application 2023SR0812724, filed July 06, 2023.
-2. **Yu, D.**, Wang, J., 2023. Software Copyright of Blockchain Supervision Platform for Agricultural Production. Software Application 2023SR0812637, filed June 15, 2023.
 </div>

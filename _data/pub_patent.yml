@@ -1,12 +1,49 @@
 # 模板
-# - id: 1 # 序号 "-" 表示数组
+# - id: X # 序号 "-" 表示数组
 #   Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
-#     - [XXX, 1]
-#   Title: 'XXX'
-#   Rank: 'ICA3PP CCF-C'
-#   Year: 2023
-#   Volumn: 14490
-#   No:
-#   Page: 398–418
-#   Link: 'https://sss'
-#   Location: 'Tianjin, China'
+#     - [Dongyang Yu, 1]
+#     - [Jin Wang, 0]
+#   Title: '农产品生产流程区块链监管平台 (Software Copyright of Blockchain Supervision Platform for Agricultural Production)'
+#   CertificateNo: '2023SR0812637' # 证书编号
+#   Status: 'Filed on' # 状态
+#   Date: 'Jun. 2023' # 发行日期
+- id: 3 # 序号 "-" 表示数组
+  Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+    - [Jin Wang, 0]
+    - [Dongyang Yu, 1]
+    - [Lingzhi Li, 0]
+    - [Fei Gu, 0]
+    - [Enshu Wang, 0]
+  Title: '一种面向分片联盟链的恶意节点检测方法 (Method to identify malicious nodes in sharding permissioned blockchain)'
+  Country: 'CN' # 所发行国家 CN UN 等等
+  CertificateNo:  # 证书编号
+  Status: 'Pending on' # 状态
+  Date: 'Jul. 2023' # 发行日期
+  Remarks: '*First student author' # 备注信息
+- id: 2 # 序号 "-" 表示数组
+  Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+    - [Jin Wang, 0]
+    - [Wei Jiang, 0]
+    - [Dongyang Yu, 1]
+    - [Lingzhi Li, 0]
+    - [Fei Gu, 0]
+    - [Enshu Wang, 0]
+  Title: '一种基于线性编码的区块链存储方法 (Storage method based on linear encoding for blockchain)'
+  Country: 'CN' # 所发行国家 CN UN 等等
+  CertificateNo:  # 证书编号
+  Status: 'Pending on' # 状态
+  Date: 'Jul. 2023'
+  Remarks: '*Second student author' # 备注信息
+- id: 1 # 序号 "-" 表示数组
+  Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
+    - [Jin Wang, 0]
+    - [Dongyang Yu, 1]
+    - [Lingzhi Li, 0]
+    - [Fei Gu, 0]
+    - [Enshu Wang, 0]
+  Title: '一种联盟链农产品溯源系统及方法 (Method and system of permissioned blockchain for agricultural product traceability)'
+  Country: 'CN' # 所发行国家 CN UN 等等
+  CertificateNo:  # 证书编号
+  Status: 'Pending on' # 状态
+  Date: 'Jun. 2023' # 发行日期
+  Remarks: '*First student author' # 备注信息
