@@ -16,9 +16,9 @@
     - [Enshu Wang, 0]
   Title: '一种面向分片联盟链的恶意节点检测方法 (Method to identify malicious nodes in sharding permissioned blockchain)'
   Country: 'CN' # 所发行国家 CN UN 等等
-  CertificateNo:  # 证书编号
-  Status: 'Pending on' # 状态
-  Date: 'Jul. 2023' # 发行日期
+  CertificateNo: ZL202310890218.8 # 证书编号
+  Status: 'Granted on' # 状态
+  Date: 'Jul. 2024' # 发行日期
   Remarks: '*First student author' # 备注信息
 - id: 2 # 序号 "-" 表示数组
   Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#
@@ -30,9 +30,9 @@
     - [Enshu Wang, 0]
   Title: '一种基于线性编码的区块链存储方法 (Storage method based on linear encoding for blockchain)'
   Country: 'CN' # 所发行国家 CN UN 等等
-  CertificateNo:  # 证书编号
-  Status: 'Pending on' # 状态
-  Date: 'Jul. 2023'
+  CertificateNo: ZL202310846584.3 # 证书编号
+  Status: 'Granted on' # 状态
+  Date: 'Aug. 2024'
   Remarks: '*Second student author' # 备注信息
 - id: 1 # 序号 "-" 表示数组
   Authors: # 角色： 0代表普通作者，1表示自己非通讯，2表示自己为通讯，3表示所指导学生（加粗），4表示非自己的通讯作者#

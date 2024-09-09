@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am currently a postgraduate student at [Soochow University](http://www.suda.edu.cn) in the School of Computer Science & Technology . My supervisor is [Prof. Jin Wang](http://web.suda.edu.cn/wjin1985/index.html). Piror to that, I received double B.S. degrees in computer science from Northern Arizona University & computer science and technology from Yangzhou University in 2020, respectively. My research interests include **blockchain security**, **coded computing** and **distributed systems**.<br>
+Hi! I am currently a first-year Ph.D. student at BUPT, where I am lucky to be advised by [Dr. Yuchao Zhang](yuchaozhang.weebly.com).
+Before that, I earned my M.Eng degree in Computer Technology from Soochow University, where I was grateful to be supervised by [Prof. Jin Wang](http://web.suda.edu.cn/wjin1985/index.html). Piror to that, I received double B.S. degrees in Computer Science from Northern Arizona University and Computer Science & Technology from Yangzhou University in 2020, respectively. My research interests include **blockchain security**, **coded computing** and **distributed systems**.<br>
 
 I would love to work with all people together on some interesting projects! **Feel free to drop me an email** if you have any ideas about blockchain to discuss!
 
@@ -32,6 +33,7 @@ I would love to work with all people together on some interesting projects! **Fe
 
 
 ## Selected Awards
+- Outstanding Graduate，Soochow University, *Jun. 2024* 
 - The Huawei Scholarship <u>(15 places in total)</u>, Soochow University, *Nov. 2023*
 - The Samsung Scholarship <u>(5 places in total)</u>, Soochow University, *Nov. 2022*
 - Grand Prize Scholarship <u>(better than first class)</u>, Soochow University, *Oct. 2022*

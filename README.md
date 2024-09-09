@@ -18,7 +18,7 @@ See more info at https://academicpages.github.io/
 
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
-For windows:
+### For windows:
 
  1. Install Ruby from here: https://rubyinstaller.org/
 
@@ -51,9 +51,30 @@ For windows:
  9. `bundle exec jekyll liveserve --port 4001` **<u>（Local run）</u>**
 
  10. If this doesn't work, try step 4) and repeat.
-   It should work like a charm. Drop a question in case this doesn't work.
+      It should work like a charm. Drop a question in case this doesn't work.
 
-For Linux:
+## For MacOS:
+> https://jekyllrb.com/docs/installation/macos/
+1. Install Homebrew `/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`
+2. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo brew install ruby  nodejs`
+   `brew install chruby ruby-install xz`
+   `ruby-install ruby 3.1.3`
+2.1 configure your shell to automatically use chruby:
+   `echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc`
+   `echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc`
+   `echo "chruby ruby-3.1.3" >> ~/.zshrc # run 'chruby' to see actual version`
+
+   2.2 由于MacOS自带一个2.6的版本，因此需要覆盖掉
+   `echo 'export PATH="/Users/xxx/.rubies/ruby-3.1.3/bin:$PATH"' >> ~/.zshrc`
+   `source ~/.zshrc`
+
+   2.2 After installing Ruby with chruby, install the latest Jekyll gem:
+   `gem install jekyll`
+1. Run `bundle clean` to clean up the directory (no need to run `--force`)
+2. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+3. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+
+### For Linux:
 
 1. Clone the repository and made updates as detailed above
 
@@ -65,7 +86,8 @@ For Linux:
 # Upload to GitHub
 
 ```bash
-git pushgit add.
+git add .
+git push
 git commit -m 'msgs'
 git push
 ```
@@ -79,3 +101,5 @@ navigation list in `_data/navigation.yml`
 Update the edit time in `_includes/footer.html`
 
 Update the publications in `_data/pub.yml`
+
+Test it to change 'url' `in_config.yml`
