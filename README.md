@@ -87,7 +87,6 @@ See more info at https://academicpages.github.io/
 
 ```bash
 git add .
-git push
 git commit -m 'msgs'
 git push
 ```
