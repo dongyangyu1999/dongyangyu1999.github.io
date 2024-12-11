@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dongyang Yu"
+title                    : "Dong-Yang Yu"
 title_separator          : "-"
-name                     : &name "Dongyang Yu"
+name                     : &name "Dong-Yang Yu"
 description              : &description "personal description"
 # url                      : http://localhost:4001  # For development
 url                      : https://dyyuCS.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -82,7 +82,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dongyang Yu"
+  name             : "Dong-Yang Yu"
   avatar           : "profile-min.jpg"
   bio              : "  
   Ph.D. student</br>
@@ -98,7 +98,7 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=nD_aiHwAAAAJ&hl=en"
   # email            : "dyyu@stu.suda.edu.cn"
-  email            : "dongyangyu1999@outlook.com"
+  email            : "dongyangyu1999 AT outlook DOT com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -107,7 +107,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "dongyangyu1999"
+  github           : "dyyuCS"
   google_plus      :
   keybase          :
   instagram        :
