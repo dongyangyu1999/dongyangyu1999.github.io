@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am currently a first-year Ph.D. student at BUPT, where I am lucky to be advised by [Dr. Yuchao Zhang](http://https://yuchaozhang.weebly.com).
+Hi! I am currently a first-year Ph.D. student at BUPT, where I am lucky to be advised by [Dr. Yuchao Zhang](https://yuchaozhang.weebly.com).
 Before that, I earned my M.Eng degree in Computer Technology from Soochow University, where I was grateful to be supervised by [Prof. Jin Wang](https://web.suda.edu.cn/wjin1985/index.html). Piror to that, I received double B.S. degrees in Computer Science from Northern Arizona University and Computer Science & Technology from Yangzhou University in 2020, respectively. My research interests include **blockchain security**, **coded computing** and **distributed systems**.<br>
 
 I would love to work with all people together on some interesting projects! **Feel free to drop me an email** if you have any ideas about blockchain to discuss!
